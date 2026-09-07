@@ -1,3 +1,16 @@
 theme: jekyll-theme-minimal
 title: 王志勇的主页
-description: Bookmark this to keep an eye on my project updates!
+description: 记录我的思考与笔记
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
